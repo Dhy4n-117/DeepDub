@@ -1,0 +1,19 @@
+# --- System & Environment ---
+venv/
+__pycache__/
+*.spec
+
+# --- Media Files (Too large for GitHub) ---
+*.mp4
+*.wav
+*.mp3
+
+# --- Generated Data (Keep the repo clean) ---
+dubbed_segments/
+transcript.json
+transcript_es.json
+transcript_es_llm.json
+
+# --- IDE Settings (Optional) ---
+.vscode/
+.idea/
